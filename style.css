@@ -1,4 +1,44 @@
 body {
-  background-color: salmon ;
+  background-color:#829B6F;       
+} 
+h4 {
+  color:#FFFFFF;
+  letter-spacing:200%; 
+  font-size: 5em;
+ background:#97AB87;
+  font-family: fantasy;
 }
- 
+p {
+  color: #FFFFFF;
+  font-size: 1.5em;
+  font-family: fantasy;
+ background:
+   #839B6F; 
+}
+nav {
+list-style-type: none;
+  background-color: #5A6C4B;
+    width: 100%; 
+  font-size: 2em;
+  left: 0;
+  top: 0;
+  margin: 0; 
+  overflow: hidden;
+  position: fixed; 
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding:  14px 50px; 
+}
+li a: hover {
+  
+ background-color: antiquewhite; 
+  color: black; 
+}
